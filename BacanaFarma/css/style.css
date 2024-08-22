@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Matemasie", sans-serif;
+}
+
+body{
+    background-color: rgb(238, 238, 238)
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: #8AB4F8;
+}
+
+#logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #F9E79F
+}
+
+#logo img{
+    padding: 0 15px;
+    height: 30px;
+}
+
+#logo h4{
+    font-size: 1rem;
+    letter-spacing: 4px;
+}
+
+#logo h3{
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+
+#links-itens{
+    flex: 2;
+}
+
+#links-itens ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#links-itens ul li a{
+    padding-left: 60px;
+    color: #FFF
+}
+
+#links-itens ul li a:hover{
+    color: #F9E79F
+}
+
+#links-main ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;    
+}
+
+#links-main ul li img{
+    height: 35px;   
+    padding-right: 10px;
+}
+
+#links-main{
+    flex: 1;
+    text-align: right;
+    margin-right: 15px;
+}
+
+#links-main ul li #btn-login{
+    padding: 10px 25px;
+    color: #8AB4F8;
+    background-color: #F9E79F;
+    border-radius: 5px;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+#links-main ul li  #btn-login:hover{
+    opacity: 1;
+}
+
