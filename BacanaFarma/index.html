@@ -4,34 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BacanaFarma</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    
-</head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
   <body>
-    <header>
+    <nav>
       <div id="logo">
-        <img src="img/logo.png" alt="Bacana Farma">
+        <img src="img/logo.png" alt="Bacana Farma" />
         <div id="logo-text">
-            <h4>Salus</h4>
-            <h3>Farmaceutica</h3>
+          <h4>Salus</h4>
+          <h3>Farmaceutica</h3>
         </div>
       </div>
-      <div id="links-itens">
+      <div id="nav-itens">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Promotion</a></li>
-          <li><a href="#">Market</a></li>
+          <li><input type="text" name="search" id="search" /></li>
+          <li id="lupa"><img src="img/lupa.svg" alt="pesquisa" /></li>
         </ul>
       </div>
       <div id="links-main">
         <ul>
-            <li><a href="#"><img src="img/cesta.png" alt="cesta de compra"></a></li>
-          <li><a href="https://www.youtube.com/watch?v=SnpKmA_GocI" id="btn-login">Login</a></li>
+          <li id="cesta">
+            Cesta<a href="#"
+              ><img src="img/cesta.png" alt="cesta de compra"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=SnpKmA_GocI" id="btn-login"
+              >Entrar</a
+            >
+          </li>
         </ul>
       </div>
-    </header>
+    </nav>
+    <header></header>
+    <main>
+      <h3 id="text-departamento">Encontre por departamento</h3>
+      <div id="departamentos">
+        <div id="card">
+          <a href="#">
+            <img src="img/dep_perfume.png" alt="departamento perfume" />
+            <p>Perfume</p>
+          </a>
+        </div>
+        <div id="card">
+          <a href="#">
+            <img src="img/dep_remedio.png" alt="departamento remedio" />
+            <p>Remedio</p>
+          </a>
+        </div>
+        <div id="card">
+          <a href="#">
+            <img src="img/dep_manipulacao.png" alt="departamento manipulacao" />
+            <p>Manipulação</p>
+          </a>
+        </div>
+        <div id="card">
+          <a href="#">
+            <img src="img/dep_oferta.png" alt="departamento oferta" />
+            <p>Oferta</p>
+          </a>
+        </div>
+        <div id="card">
+          <a href="#">
+            <img src="img/dep_cosmetico.png" alt="departamento cosmetico" />
+            <p>Cosmetico</p>
+          </a>
+        </div>
+      </div>
+      <div id="divisao">
+        <img src="img/div.png" alt="divisao" id="img-divisao">
+      </div>
+    </main>
   </body>
 </html>

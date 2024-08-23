@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Matemasie", sans-serif;
+}
+
+body{
+    background-image: url("img/back.png");
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5f2da;
+}
+
+#logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #000
+}
+
+#logo img{
+    margin-left: 20px;
+    padding: 0 10px;
+    height: 45px;
+}
+
+#logo h4{
+    font-size: 1.6rem;
+}
+
+#logo h3{
+    font-size: 1rem;
+    letter-spacing:5px;
+}
+
+#nav-itens{
+    flex: 2;
+}
+
+#nav-itens ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#nav-itens ul li a{
+    padding-left: 60px;
+    color: #000
+}
+
+#nav-itens ul li a:hover{
+    color: #000
+}
+
+#nav-itens ul li input{
+    margin-left: 50px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+#nav-itens ul #lupa{
+    background-color: #1e4b75;
+    border-radius: 0 10px 10px 0;
+}
+
+#nav-itens ul li img{
+    padding: 4px;
+    height: 30px;
+}
+
+
+#links-main ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;    
+}
+
+#links-main ul li img{
+    height: 25px;   
+    padding-right: 10px;
+}
+
+#links-main{
+    flex: 1;
+    text-align: right;
+    margin-right: 30px;
+}
+
+#links-main ul #cesta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #326994;
+    border-radius:  10px 0 0 10px;
+    padding: 6px 10px;
+    color: #fff;
+}
+
+#links-main ul #cesta img{ 
+    margin: 0 0 0 15px;
+}
+
+#links-main ul li #btn-login{
+    padding: 11px 25px;
+    color: #fff;
+    background-color: #1E4B75;
+    border-radius:  0 10px 10px 0;
+}
+
+
+header{
+    width: 80%;
+    height: 75vh;
+    margin: auto;
+    background-color: #549CCE;
+}
+
+main{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-color: #F5F2DA;
+}
+
+#text-departamento{
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 1.6rem;
+    color: #1E4B75;
+}
+
+#departamentos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#departamentos #card{
+    padding: 10px;
+    width: 151px;
+    height: 89px;
+    background-color: #518AB6;
+    border: #1E4B75 5px solid;
+    border-radius: 10px;
+}
+
+#departamentos #card img{
+    height: 60px;
+}
+
+#departamentos #card p{
+    margin-top: 30px;
+    color: #1E4B75;
+    font-size: 1.1rem;
+}
+
+#img-divisao{
+    margin: auto;
+}
+
+#divisao{
+    margin-top: 75px;
+    width: 100%;
+    text-align: center;
+}
