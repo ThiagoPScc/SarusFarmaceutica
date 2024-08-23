@@ -84,6 +84,9 @@ header{
 }
 
 #links-main ul li #btn-login{
+	display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px 25px;
     color: #8AB4F8;
     background-color: #F9E79F;

@@ -25,11 +25,19 @@ nav{
     background-color: #F5f2da;
 }
 
+#cabecalho{
+	width:80%;
+	justify-content: center;
+    align-items: center;
+	display: flex;
+
+}
+
 #logo{
     flex: 1;
     display: flex;
     align-items: center;
-    color: #000
+    color: #1E4B75
 }
 
 #logo img{
@@ -59,18 +67,28 @@ nav{
 
 #nav-itens ul li a{
     padding-left: 60px;
-    color: #000
+    color: #1E4B75;
+	font-weight:bold;
 }
 
 #nav-itens ul li a:hover{
-    color: #000
+    color: #E88612
 }
 
 #nav-itens ul li input{
     margin-left: 50px;
     padding: 10px 5px;
     border: none;
+	background-color:#F2F2F2;
     border-radius: 10px 0 0 10px;
+}
+#nav-itens ul li input:focus{
+    margin-left: 50px;
+    padding: 10px 5px;
+    border: none;
+	background-color:#fff;
+	border-radius: 10px 0 0 10px;
+	outline: none; 
 }
 
 #nav-itens ul #lupa{
@@ -82,7 +100,6 @@ nav{
     padding: 4px;
     height: 30px;
 }
-
 
 #links-main ul{
     display: flex;
@@ -108,24 +125,52 @@ nav{
     background-color: #326994;
     border-radius:  10px 0 0 10px;
     padding: 6px 10px;
+	font-weight:bold;
     color: #fff;
 }
+#links-main ul #cesta:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #549CCE;
+    border-radius:  10px 0 0 10px;
+    padding: 6px 10px;
+	font-weight:bold;
+    color: #fff;
+}
+
 
 #links-main ul #cesta img{ 
     margin: 0 0 0 15px;
 }
 
-#links-main ul li #btn-login{
-    padding: 11px 25px;
+#links-main ul #btn-login{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	gap:10px;
+    padding: 6px 10px;
+	font-weight:bold;
     color: #fff;
     background-color: #1E4B75;
+    border-radius:  0 10px 10px 0;
+}
+#links-main ul #btn-login:hover{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	gap:10px;
+    padding: 6px 10px;
+	font-weight:bold;
+    color: #fff;
+    background-color: #549CCE;
     border-radius:  0 10px 10px 0;
 }
 
 
 header{
     width: 80%;
-    height: 75vh;
+    height: 55vh;
     margin: auto;
     background-color: #549CCE;
 }
@@ -160,6 +205,7 @@ main{
     border: #1E4B75 5px solid;
     border-radius: 10px;
 }
+
 
 #departamentos #card img{
     height: 60px;
