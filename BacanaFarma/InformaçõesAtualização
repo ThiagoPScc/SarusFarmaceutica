@@ -1,0 +1,7 @@
+23/08
+Fiz algumas alterações dentro do código:
+-Arrumei o problema de tamanho da cesta e da perte de entrar colocando uma imagem.
+-Coloquei uma margem de 10% de cada lado no cabeçalho da página.
+-Coloquei hover em alguns botões do cabeçalho.
+-retirei a borda da caixa de input quando ela é selecionada.
+-Diminui a altura do slider.
