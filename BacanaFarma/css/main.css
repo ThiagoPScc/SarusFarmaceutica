@@ -32,7 +32,7 @@ footer{
 }
 #conteudo{
 	 width: 80%;
-    height: 170vh;
+    height: 320vh;
     margin: auto;
     background-color: #F5F2DA;
 }
@@ -257,4 +257,13 @@ main{
 	width:auto;
 	background-color:#518AB6;
 	border-radius:10px;
+}
+
+#banner{
+	margin-top:10px;
+	min-width:100%;
+	min-height:200px;
+	height:auto;
+	width:auto;
+	background-color:#518AB6;
 }
