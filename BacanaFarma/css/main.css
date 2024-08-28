@@ -251,6 +251,15 @@ main{
 	background-color:#518AB6;
 	border-radius:10px;
 }
+.produto:hover{
+	min-width:25%;
+	min-height:352px;
+	height:auto;
+	width:auto;
+	background-color:#E88612;
+	border-radius:10px;
+}
+
 
 #banner{
 	margin-top:10px;
